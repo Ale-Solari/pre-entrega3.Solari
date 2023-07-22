@@ -1,0 +1,30 @@
+/* HEADER CON BOOTSTRAP*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.header img {
+    width: 200px;
+}
+
+.bg-body-tertiary {
+    background-color: white !important;
+}
+
+.header ul {
+    border: 3px outset rgb(39, 80, 155);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.header a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(39, 80, 155);
+}

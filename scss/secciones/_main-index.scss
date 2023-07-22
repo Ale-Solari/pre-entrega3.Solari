@@ -1,0 +1,51 @@
+/* MAIN CON BEM*/
+
+.main {
+    background-image: url(../recursos/Fotos/resize5.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+    padding: 25px;
+}
+
+.main__encabezado {
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    color: rgb(39, 80, 155);
+    text-align: center;
+    padding: 25px;
+}
+
+.main__texto {
+    grid-area: texto1;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 5px;
+}
+
+@media (max-width:756px) {
+    .main__encabezado {
+        font-size: 30px;
+    }
+
+    .main__texto {
+        font-size: 10px;
+        color: white;
+        font-weight: lighter;
+        text-transform: uppercase;
+    }    
+
+}
+
+
+
+
+
+
+
+
+
