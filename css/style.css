@@ -101,9 +101,16 @@ select:hover {
 
 /* MAIN - MULTIMEDIA - CARD BOOSTRAP*/
 .main-multimedia {
-  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-  padding: 10px;
-  margin: 20px; }
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); }
+
+.row-cols-1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.main-multimedia .card-body {
+  background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%); }
 
 .main-multimedia h5 {
   text-align: center;
