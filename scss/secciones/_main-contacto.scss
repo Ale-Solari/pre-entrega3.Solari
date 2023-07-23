@@ -1,6 +1,8 @@
 /* MAIN - CONTACTO - BOOSTRAP Y PSEUDOCLASES*/
 
-.row {
+
+.form-floating {
+    padding: 10;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,10 +10,6 @@
     padding: 25px;
     text-transform: uppercase;
     background-color: rgb(105, 173, 226);
-}
-
-.form-floating {
-    padding: 10;
 }
 
 .main-contacto .boton-enviar {
