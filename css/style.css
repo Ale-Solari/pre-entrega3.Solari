@@ -143,10 +143,11 @@ select:hover {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   line-height: 30px;
-  color: #27509b;
+  color: #69ade2;
+  font-weight: bold;
   margin: 25px;
   height: auto;
-  border: 2px double #69ade2;
+  border: 2px double #27509b;
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
 
 .main-servicios img {
