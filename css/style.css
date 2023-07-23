@@ -133,7 +133,8 @@ select:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-items: center; }
+  align-items: center;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%); }
 
 .main-servicios p {
   text-align: justify;
@@ -146,7 +147,7 @@ select:hover {
   margin: 25px;
   height: auto;
   border: 2px double #69ade2;
-  background-color: whitesmoke; }
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); }
 
 .main-servicios img {
   width: 500px;
