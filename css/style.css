@@ -42,11 +42,12 @@ select:hover {
   color: #27509b; }
 
 /* MAIN CON BEM*/
-.main {
+.main-index {
   background-image: url(../recursos/Fotos/resize5.jpg);
   background-repeat: no-repeat;
-  height: 700px;
-  padding: 25px; }
+  height: 800px;
+  padding: 20px;
+  margin: 35px; }
 
 .main__encabezado {
   text-transform: uppercase;
