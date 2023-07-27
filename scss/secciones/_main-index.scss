@@ -1,8 +1,9 @@
-/* MAIN CON BEM*/
+/* MAIN CON BEM Y MEDIA QUERYS PARA LOGRAR EL RESPONSIVE DEL TEXTO EN MOBILE*/
 
 .main-index {
     background-image: url(../recursos/Fotos/resize5.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     height: 800px;
     padding: 20px;
     margin: 35px;
@@ -16,6 +17,8 @@
     color: $azul-ppal;
     text-align: center;
     padding: 25px;
+    max-width: 900px;
+    margin: auto;
 }
 
 .main__texto {
@@ -27,17 +30,20 @@
     font-weight: bold;
     font-size: 15px;
     margin: 5px;
+    max-width: 900px;
+    margin: auto;
 }
 
-@media (max-width:756px) {
+@media (max-width:862px) {
     .main__encabezado {
         font-size: 30px;
+        padding: 20px;
     }
 
     .main__texto {
         font-size: 10px;
         color: white;
-        font-weight: lighter;
+        font-weight: normal;
         text-transform: uppercase;
     }    
 
