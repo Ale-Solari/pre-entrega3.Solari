@@ -1,4 +1,6 @@
-/* MAIN CON BEM Y MEDIA QUERYS PARA LOGRAR EL RESPONSIVE DEL TEXTO EN MOBILE*/
+/* MAIN CON BEM Y MEDIA QUERYS PARA LOGRAR EL RESPONSIVE EN MOBILE*/
+
+
 
 .main-index {
     background-image: url(../recursos/Fotos/resize5.jpg);
@@ -34,10 +36,12 @@
     margin: auto;
 }
 
+// Se aplica media querys en H1 y texto de la pagina principal
+
 @media (max-width:862px) {
     .main__encabezado {
         font-size: 30px;
-        padding: 20px;
+        padding: 30px;
     }
 
     .main__texto {

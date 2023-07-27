@@ -32,16 +32,32 @@ select:hover {
   background-color: white !important; }
 
 .header ul {
-  border: 3px outset #27509b;
-  border-radius: 5px;
-  padding: 30px; }
+  padding: 30px;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%) !important;
+  font-family: 'Kanit', sans-serif !important; }
 
 .header a {
   text-transform: uppercase;
   font-weight: bold;
   color: #27509b; }
 
-/* MAIN CON BEM Y MEDIA QUERYS PARA LOGRAR EL RESPONSIVE DEL TEXTO EN MOBILE*/
+@media (max-width: 862px) {
+  .header img {
+    width: 120px; }
+  .navbar-toggler {
+    color: #69ade2 !important; }
+  .navbar-toggler-icon {
+    width: 0.8em !important;
+    height: 0.8em !important; }
+  .header ul {
+    text-transform: uppercase;
+    font-size: 8px !important;
+    background-image: none !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important; } }
+
+/* MAIN CON BEM Y MEDIA QUERYS PARA LOGRAR EL RESPONSIVE EN MOBILE*/
 .main-index {
   background-image: url(../recursos/Fotos/resize5.jpg);
   background-repeat: no-repeat;
@@ -75,7 +91,7 @@ select:hover {
 @media (max-width: 862px) {
   .main__encabezado {
     font-size: 30px;
-    padding: 20px; }
+    padding: 30px; }
   .main__texto {
     font-size: 10px;
     color: white;
